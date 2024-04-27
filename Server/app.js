@@ -14,12 +14,12 @@ app.use(cors());
 
 // Define a route handler for the root route
 app.get('/', (req, res) => {
-  res.send('Hello, World from Server!'); // Send a simple response for the root route
+  res.send('Hello, World from Server123!'); // Send a simple response for the root route
 });
 
 // Define a route handler for the '/api' endpoint
 app.get('/api', (req, res) => {
-  res.json({ message: 'Hello from the server!' }); // Send a JSON response to the client
+  res.json({ message: 'Hello from the server123!' }); // Send a JSON response to the client
 });
 
 // Start the server
