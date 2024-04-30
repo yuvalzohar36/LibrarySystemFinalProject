@@ -7,7 +7,7 @@ import { getFirestore, getCountFromServer } from 'firebase/firestore';
 const app = express();
 app.use(express.json());
 let numberOfBooks = null;
-const port = 3500;
+const port = 3000;
 
 // Use the cors middleware to enable CORS for all routes
 app.use(cors());
