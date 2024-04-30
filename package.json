@@ -6,7 +6,7 @@
     "Server"
   ],
   "scripts": {
-    "start": "npm-run-all --parallel start:server start:client",
+    "start": "",
     "start:server": "cd Server && npm start",
     "start:client": "cd Client && npm run build"
   },
